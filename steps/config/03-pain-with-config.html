@@ -1,0 +1,40 @@
+<h2>Config hell</h2>
+<p>How to mange configuration for 3+ different enviroments:</p>
+<ul>
+    <li>Manualy create config</li>
+    <li>Use App.Relase.config (with SlowCheetah)</li>
+    <li>Put in source control MyApp.ENV.config</li>
+    <li>No config differences - changes in hosts file</li>
+</ul>
+<aside class="notes">
+    <p>The first simptom of complicated deployment is <b>Config hell</b></p>
+    <p>
+        Let's stop with the number "3". Why it is 3+? Because simplest architecture assumes 3: dev, test, prem.<br/>
+        Simple next step is "prem-copy". Then we add "performance env", "uat env", "feature branch env". 
+        And we ends with 10, 20 or even 100
+    </p>
+    <ul>
+        <li>
+            Manual steps are bad. Always bad. After 100 reapeats you will kill someone:D
+        </li>
+        <li>
+            Next try - config transormation are easy way to manage simple config definitions.
+            For different files than Web.Config we can use SlowCheetah plugin.
+        </li>
+        <li>
+            Files like MyApp.Enviroment.config in git are so difficult to manage. 
+            When we do any change we have to remember about all files. It is to easy to make an error.
+            But this is a very popular solution.
+            One very big disadvantage for above solutions: every developer can access and change all config files.
+        </li>
+        <li>
+            That is a really cool approach. Imagine that you hardcode all hosts names like "myAppApplicationServer"
+            and uses certificate for connection called "mySuperSecretCertificate".
+            On diffrent enviroments you just switch contents of DNS or cerificate store or anything you need.
+            <br/>
+            The only problems is with external secret keys like facebook api secret key. But you can solve it :) 
+            I want to try this approach one day. It sound really cool. 
+        </li>
+        
+    </ul>
+</aside>

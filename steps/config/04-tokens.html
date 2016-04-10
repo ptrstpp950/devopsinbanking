@@ -1,0 +1,44 @@
+<h2>Tokens</h2>
+<p>One more approach</p>
+<code>
+    <pre class="brush: xml;">
+&lt;add name="ContractX" path="Something/ABC" server="${AppsrvName}" 
+     port="${Core_port}" binding="TCP" 
+     serverThumbPrint="${AppSrvServerThumbPrint}" 
+     clientThumbPrint="${AppSrvClientThumbPrint}"/&gt;
+     </pre>
+</code>
+<p><b>+</b></p>
+<code>
+    <pre class="brush: xml;">
+&lt;AppsrvName&gt;XYZ.mbank.pl&lt;/AppsrvName&gt;
+&lt;Core_port&gt;8888&lt;/Core_port&gt;
+&lt;AppSrvServerThumbPrint&gt;29[...]76&lt;/AppSrvServerThumbPrint&gt;
+&lt;AppSrvClientThumbPrint&gt;98[...]84&lt;/AppSrvClientThumbPrint&gt;
+    </pre>
+</code>
+<p><b>=</b></p>
+<code>
+    <pre class="brush: xml;">
+&lt;add name="ContractX" path="Something/ABC" server="XYZ.mbank.pl" 
+     port="8888" binding="TCP" 
+     serverThumbPrint="29[...]76" 
+     clientThumbPrint="98[...]84"/&gt;
+     </pre>
+</code>
+
+<aside class="notes">
+    My favorite approach. In my company we are using it almost everywhere. 
+    Instead of having multiple config files, we have one. But with "gaps" called tokes.
+    They have specific notation. In our case it is $ and mustache brackets.
+    <br/>
+    This approach is used in mamy popular DevOps tools. 
+    For example Octopus Deploy and Chef. Of course notaion is different.
+    <br/> 
+    Every instalation just fill tokens and configs are almost same on every enviroment.
+    <br/>---<br/>
+    The funny error from migration into .NET 4.6.1 is that we had a token with SQL server intance name.
+    On every enviroments we had a named server like "SqlServerHost", but on production we had IP adress.
+    Fortunatley Jacek the administaror, checked fast what is wrong on StackOverflow and fix the token.
+    That is a great example of DevOps culture and responsible on both sides. 
+</aside>

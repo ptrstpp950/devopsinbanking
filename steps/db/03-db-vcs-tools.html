@@ -1,0 +1,28 @@
+<h2>DB with VCS - tools</h2>
+<p>
+    A few examples:
+    <ul>
+        <li>VS database project</li>
+        <li>Redgate stuff</li>
+        <li>Fluent or EF migrations</li>
+        <li>DbUp - simple great #OSS stuff</li>
+        <li>Home-made tool :)</li>
+    </ul> 
+</p>
+<aside class="notes">
+    The tools that belong to the same class retain the same principles and ideas. 
+    If you are familiar with one of such tool, you will find it pretty easy to learn how to work with another one. 
+    Nevertheless, the functionality behind them might differ a lot, 
+    so it’s important to carefully choose one that fulfils your project’s needs the most.
+    
+    A small funny history from my life. In mBank one of the database is an audit one. It is backuped every day.
+    I want to change backup procedure to make another copy. 
+    It is completly not important why here so I will ommit this part.
+    
+    The orginal procedure wast commited as simple SQL file in repository with all DB structure. 
+    If something change in structure we send all SQL files. 
+    We can just drop and create a new DB because it was audit stuff, backuped somewhere.
+    
+    I decided to change step number 3 out of 5. But to be sure I send the question to DBA with changes. 
+    Now I would like You to do a small survey:
+</aside>

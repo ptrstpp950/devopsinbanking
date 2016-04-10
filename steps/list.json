@@ -1,0 +1,283 @@
+[
+    {
+        "uri": "00-start.html",
+        "id": "title",
+        "class": "step title",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "scale": 4,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 0
+        }
+    },
+    {
+        "uri": "00-start-no.html",
+        "id": "noooooo",
+        "class": "step title",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "scale": 4,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 0
+        }
+    },
+    
+    {
+        "uri": "01-agenda.html",
+        "id": "agenda",
+        "class": "step",
+        "data": {
+            "x": 3000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "02-basketball.html",
+        "id": "basketball",
+        "class": "step",
+        "data": {
+            "x": 6000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "03-mainrule.html",
+        "id": "mainrule",
+        "class": "step",
+        "data": {
+            "x": 9000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "logging/01-intro.html",
+        "id": "logging-01-intro",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "logging/02-why.html",
+        "id": "logging-02-why",
+        "class": "step",
+        "data": {
+            "x": 15000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "logging/03-elkVSsplunk.html",
+        "id": "logging-03-elkVSsplunk",
+        "class": "step",
+        "data": {
+            "x": 18000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "logging/04-cloud-options.html",
+        "id": "logging-04-cloud-options",
+        "class": "step",
+        "data": {
+            "x": 21000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "logging/05-elkVSsplunk-demo.html",
+        "id": "loggin-05-elkVSsplunk-demo",
+        "class": "step",
+        "data": {
+            "x": 24000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "logging/06-more.html",
+        "id": "loggin-06-more-demo",
+        "class": "step",
+        "data": {
+            "x": 27000,
+            "y": 0,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "config/01-intro.html",
+        "id": "config-01-intro",
+        "class": "step",
+        "data": {
+            "x": 27000,
+            "y": 0,
+            "z": 100,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "config/02-do-i-need.html",
+        "id": "config-02-do-i-need",
+        "class": "step",
+        "data": {
+            "x": 24000,
+            "y": 0,
+            "z": 100,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "config/03-pain-with-config.html",
+        "id": "config-03-pain-with-config",
+        "class": "step",
+        "data": {
+            "x": 24000,
+            "y": 0,
+            "z": 100,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "config/04-tokens.html",
+        "id": "config-04-tokens",
+        "class": "step",
+        "data": {
+            "x": 24000,
+            "y": 0,
+            "z": 100,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "db/01-intro.html",
+        "id": "db-01-intro",
+        "class": "step",
+        "data": {
+            "x": 24000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "db/02-db-vcs.html",
+        "id": "db-02-db-vcs",
+        "class": "step",
+        "data": {
+            "x": 18000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "db/03-db-vcs-tools.html",
+        "id": "db-03-db-vcs-tools",
+        "class": "step",
+        "data": {
+            "x": 15000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "db/04-db-survey.html",
+        "id": "db-04-db-survey",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "db/05-db-lesson-learned.html",
+        "id": "05-db-lesson-learned",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    }
+]
