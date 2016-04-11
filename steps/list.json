@@ -279,5 +279,75 @@
             "rotate-y": 0,
             "rotate-z": 90
         }
+    },
+    {
+        "uri": "deploy/01-intro.html",
+        "id": "deploy-01-intro",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "deploy/02-tools.html",
+        "id": "deploy-02-tools",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "deploy/03-motetools.html",
+        "id": "deploy-03-motetools",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "deploy/04-lesson-learned.html",
+        "id": "deploy-04-lesson-learned.html",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "servicediscovery/01-intro.html",
+        "id": "servicediscovery-01-intro",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
     }
 ]

@@ -1,0 +1,30 @@
+<h2>How to deploy? - tools</h2>
+<ul>
+    <li>Custom stuff (e.g. Jenkis+PowerShell)</li>
+    <li>Chef / Puppet / Ansible</li>
+    <li>OctopusDeploy</li>
+    <li>Other</li>
+</ul>
+<aside class="notes">
+    <p>Why custom stuff?</p>
+    <ul>
+        <li>You already have it :)</li>
+        <li>You have something strange/differenent, so you will have to code it anyway</li>
+        <li>You like to create your own:)</li>
+    </ul>
+    <p>Why do I put Chef/Puppet/Ansible in one line and Octopus in other></p>
+    <blockquote>
+        <p>Octopus and Chef/Puppet/Ansible are different. In fact, I don't think there's any reason to choose.</p>
+        <p>Puppet and Chef are configuration management tools. They work by describing the state that a system should be in,
+            and they take steps to ensure systems are in that state. </p>
+        <p>For example, imagine you were managing 30 web servers. Rather than using remote desktop to configure them all, installing
+            Windows components, enabling features, and so on, you could use Puppet or Chef to specify: </p>
+        <ul>
+            <li>All web servers should have IIS configured with the Windows Authentication module enabled</li>
+            <li>MSMQ should be installed and running</li>
+            <li>A folder at <code>C:\Logs</code> should exist and be writable by a given user account</li>
+        </ul>
+        <cite>https://octopus.com/blog/octopus-vs-puppet-chef</cite>
+    </blockquote>
+    
+</aside>
