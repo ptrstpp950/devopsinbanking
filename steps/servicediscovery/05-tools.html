@@ -1,0 +1,27 @@
+<h2>The Service Registry</h2>
+<ul>
+    <li>Netflix Eureka</li>
+    <li>etcd</li>
+    <li>Apache Zookeeper</li>
+    <li>Consul</li>
+</ul>
+
+<aside class="notes">
+    <ul>
+        <li>, Netflix Eureka is good example of a service registry. It provides a REST API for registering and querying service
+            instances. A service instance registers its network location using a POST request. Every 30 seconds it must refresh
+            its registration using a PUT request. A registration is removed by either using an HTTP DELETE request or by
+            the instance registration timing out. As you might expect, a client can retrieve the registered service instances
+            by using an HTTP GET request.</li>
+        <li><a target="_blank" href="https://github.com/coreos/etcd">etcd</a> – A highly available, distributed, consistent,
+            key-value store that is used for shared configuration and service discovery. Two notable projects that use etcd
+            are Kubernetes and <a target="_blank" href="http://pivotal.io/platform">Cloud&nbsp;Foundry</a>.</li>
+
+        <li><a target="_blank" href="http://zookeeper.apache.org/">Apache&nbsp;Zookeeper</a> – A widely used, high-performance
+            coordination service for distributed applications. Apache Zookeeper was originally a subproject of Hadoop but
+            is now a top-level project.</li>
+        <li><a target="_blank" href="https://www.consul.io/">consul</a> – A tool for discovering and configuring services. It
+            provides an API that allows clients to register and discover services. Consul can perform health checks to determine
+            service availability.</li>
+    </ul>
+</aside>

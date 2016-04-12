@@ -1,0 +1,15 @@
+<h2>The Server-Side Discovery Pattern</h2>
+<img height="600px" src="/img/service-discovery-server-side.png" />
+
+<aside class="notes">
+    <img height="600px" src="/img/service-discovery-server-side.png" />
+    <blockquote>
+        <p>The server-side discovery pattern has several benefits and drawbacks. One great benefit of this pattern is that details
+            of discovery are abstracted away from the client. Clients simply make requests to the load balancer. This eliminates
+            the need to implement discovery logic for each programming language and framework used by your service clients.
+            Also, as mentioned above, some deployment environments provide this functionality for free. This pattern also
+            has some drawbacks, however. Unless the load balancer is provided by the deployment environment, it is yet another
+            highly available system component that you need to set up and manage.</p>
+        <cite>https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/</cite>
+    </blockquote>
+</aside>

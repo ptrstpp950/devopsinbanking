@@ -14,7 +14,7 @@
         }
     },
     {
-        "uri": "00-start-no.html",
+        "uri": "00-start-no.1.html",
         "id": "noooooo",
         "class": "step title",
         "data": {
@@ -27,7 +27,20 @@
             "rotate-z": 0
         }
     },
-    
+    {
+        "uri": "00-start-no.2.html",
+        "id": "but",
+        "class": "step title",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "scale": 4,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 0
+        }
+    },    
     {
         "uri": "01-agenda.html",
         "id": "agenda",
@@ -339,6 +352,90 @@
     {
         "uri": "servicediscovery/01-intro.html",
         "id": "servicediscovery-01-intro",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "servicediscovery/02-problem.html",
+        "id": "servicediscovery-02-problem",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "servicediscovery/03-client-side-discovery.html",
+        "id": "servicediscovery-03-client-side-discovery",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "servicediscovery/04-server-side-discovery.html",
+        "id": "servicediscovery-04-server-side-discovery",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "servicediscovery/05-tools.html",
+        "id": "servicediscovery-05-tools",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "servicediscovery/06-consul.html",
+        "id": "servicediscovery-06-consul",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "z": 300,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 90
+        }
+    },
+    {
+        "uri": "servicediscovery/07-lesson-learned.html",
+        "id": "servicediscovery-07-lesson-learned",
         "class": "step",
         "data": {
             "x": 12000,
