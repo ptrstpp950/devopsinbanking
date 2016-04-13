@@ -2,12 +2,12 @@
     {
         "uri": "00-start.html",
         "id": "title",
-        "class": "step title",
+        "class": "step title slide",
         "data": {
             "x": 0,
             "y": 0,
             "z": 0,
-            "scale": 4,
+            "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
             "rotate-z": 0
@@ -19,9 +19,9 @@
         "class": "step title",
         "data": {
             "x": 0,
-            "y": 0,
+            "y": 1000,
             "z": 0,
-            "scale": 4,
+            "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
             "rotate-z": 0
@@ -33,9 +33,9 @@
         "class": "step title",
         "data": {
             "x": 0,
-            "y": 0,
+            "y": 2000,
             "z": 0,
-            "scale": 4,
+            "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
             "rotate-z": 0
@@ -46,13 +46,13 @@
         "id": "agenda",
         "class": "step",
         "data": {
-            "x": 3000,
-            "y": 0,
-            "z": 0,
+            "x": 0,
+            "y": 2000,
+            "z": -1000,
             "scale": 1,
             "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-y": 360,
+            "rotate-z": 0
         }
     },
     {
@@ -60,13 +60,13 @@
         "id": "basketball",
         "class": "step",
         "data": {
-            "x": 6000,
-            "y": 0,
-            "z": 0,
+            "x": 0,
+            "y": 2000,
+            "z": -1500,
             "scale": 1,
-            "rotate-x": 0,
+            "rotate-x": 360,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -74,13 +74,13 @@
         "id": "mainrule",
         "class": "step",
         "data": {
-            "x": 9000,
-            "y": 0,
-            "z": 0,
+            "x": 0,
+            "y": 3000,
+            "z": -1500,
             "scale": 1,
-            "rotate-x": 0,
+            "rotate-x": 360,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -88,13 +88,13 @@
         "id": "logging-01-intro",
         "class": "step",
         "data": {
-            "x": 12000,
-            "y": 0,
-            "z": 0,
+            "x": 0,
+            "y": 3000,
+            "z": -1500,
             "scale": 1,
-            "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-x": 360,
+            "rotate-y": 90,
+            "rotate-z": 0
         }
     },
     {
@@ -102,13 +102,13 @@
         "id": "logging-02-why",
         "class": "step",
         "data": {
-            "x": 15000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
+            "x": -1000,
+            "y": 3000,
+            "z": -1500,
+            "scale": 4,
+            "rotate-x": 360,
+            "rotate-y": 90,
+            "rotate-z": 0
         }
     },
     {
@@ -116,13 +116,13 @@
         "id": "logging-03-elkVSsplunk",
         "class": "step",
         "data": {
-            "x": 18000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
+            "x": -10000 ,
+            "y": 3000,
+            "z": -1500,
+            "scale": 10,
+            "rotate-x": 360,
+            "rotate-y": 90,
+            "rotate-z": 0
         }
     },
     {
@@ -130,13 +130,13 @@
         "id": "logging-04-cloud-options",
         "class": "step",
         "data": {
-            "x": 21000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
+            "x": -10000,
+            "y": 3000,
+            "z": -1500,
+            "scale": 15,
+            "rotate-x": 360,
+            "rotate-y": 90,
+            "rotate-z": 0
         }
     },
     {
@@ -144,27 +144,27 @@
         "id": "loggin-05-elkVSsplunk-demo",
         "class": "step",
         "data": {
-            "x": 24000,
-            "y": 0,
-            "z": 0,
+            "x": -11000,
+            "y": 3000,
+            "z": -1500,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
         "uri": "logging/06-more.html",
-        "id": "loggin-06-more-demo",
+        "id": "loggin-06-more",
         "class": "step",
         "data": {
-            "x": 27000,
-            "y": 0,
-            "z": 0,
-            "scale": 1,
-            "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
+            "x": -11000,
+            "y": 3000,
+            "z": -1500,
+            "scale": 15,
+            "rotate-x": 360,
+            "rotate-y": 90,
+            "rotate-z": 0
         }
     },
     {
@@ -172,13 +172,13 @@
         "id": "config-01-intro",
         "class": "step",
         "data": {
-            "x": 27000,
+            "x": 0,
             "y": 0,
             "z": 100,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -186,13 +186,13 @@
         "id": "config-02-do-i-need",
         "class": "step",
         "data": {
-            "x": 24000,
+            "x": 0,
             "y": 0,
             "z": 100,
             "scale": 1,
-            "rotate-x": 0,
+            "rotate-x": 90,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -200,13 +200,13 @@
         "id": "config-03-pain-with-config",
         "class": "step",
         "data": {
-            "x": 24000,
+            "x": 0,
             "y": 0,
             "z": 100,
             "scale": 1,
-            "rotate-x": 0,
+            "rotate-x": 180,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -214,13 +214,13 @@
         "id": "config-04-tokens",
         "class": "step",
         "data": {
-            "x": 24000,
+            "x": 0,
             "y": 0,
             "z": 100,
             "scale": 1,
-            "rotate-x": 0,
+            "rotate-x": 270,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -228,13 +228,13 @@
         "id": "db-01-intro",
         "class": "step",
         "data": {
-            "x": 24000,
+            "x": -100,
             "y": 0,
-            "z": 300,
-            "scale": 1,
+            "z": 4000,
+            "scale": 2,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {

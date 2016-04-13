@@ -1,32 +1,28 @@
 <h2>Tokens</h2>
 <p>One more approach</p>
-<code>
-    <pre class="brush: xml;">
-&lt;add name="ContractX" path="Something/ABC" server="${AppsrvName}" 
-     port="${Core_port}" binding="TCP" 
-     serverThumbPrint="${AppSrvServerThumbPrint}" 
-     clientThumbPrint="${AppSrvClientThumbPrint}"/&gt;
-     </pre>
+<code class="tokensCode">
+<pre style='color:#000000;background:#ffffff;'><span style='color:#a65700; '>&lt;</span><span style='color:#5f5035; '>add</span> <span style='color:#274796; '>name</span><span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>ContractX</span><span style='color:#800000; '>"</span> <span style='color:#274796; '>path</span><span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>Something/ABC</span><span style='color:#800000; '>"</span> <span style='color:#274796; '>server</span><span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>${AppsrvName}</span><span style='color:#800000; '>"</span> 
+     <span style='color:#274796; '>port</span><span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>${Core_port}</span><span style='color:#800000; '>"</span> <span style='color:#274796; '>binding</span><span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>TCP</span><span style='color:#800000; '>"</span> 
+     <span style='color:#274796; '>serverThumbPrint</span><span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>${AppSrvServerThumbPrint}</span><span style='color:#800000; '>"</span> 
+     <span style='color:#274796; '>clientThumbPrint</span><span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>${AppSrvClientThumbPrint}</span><span style='color:#800000; '>"</span><span style='color:#a65700; '>/></span>
+</pre>
 </code>
 <p><b>+</b></p>
-<code>
-    <pre class="brush: xml;">
-&lt;AppsrvName&gt;XYZ.mbank.pl&lt;/AppsrvName&gt;
-&lt;Core_port&gt;8888&lt;/Core_port&gt;
-&lt;AppSrvServerThumbPrint&gt;29[...]76&lt;/AppSrvServerThumbPrint&gt;
-&lt;AppSrvClientThumbPrint&gt;98[...]84&lt;/AppSrvClientThumbPrint&gt;
-    </pre>
+<code class="tokensCode">
+<pre style='color:#000000;background:#ffffff;'><span style='color:#a65700; '>&lt;</span><span style='color:#5f5035; '>AppsrvName</span><span style='color:#a65700; '>></span>XYZ.mbank.pl<span style='color:#a65700; '>&lt;/</span><span style='color:#5f5035; '>AppsrvName</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#5f5035; '>Core_port</span><span style='color:#a65700; '>></span>8888<span style='color:#a65700; '>&lt;/</span><span style='color:#5f5035; '>Core_port</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#5f5035; '>AppSrvServerThumbPrint</span><span style='color:#a65700; '>></span>29[...]76<span style='color:#a65700; '>&lt;/</span><span style='color:#5f5035; '>AppSrvServerThumbPrint</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#5f5035; '>AppSrvClientThumbPrint</span><span style='color:#a65700; '>></span>98[...]84<span style='color:#a65700; '>&lt;/</span><span style='color:#5f5035; '>AppSrvClientThumbPrint</span><span style='color:#a65700; '>></span>
+</pre>
 </code>
 <p><b>=</b></p>
-<code>
-    <pre class="brush: xml;">
-&lt;add name="ContractX" path="Something/ABC" server="XYZ.mbank.pl" 
-     port="8888" binding="TCP" 
-     serverThumbPrint="29[...]76" 
-     clientThumbPrint="98[...]84"/&gt;
-     </pre>
+<code class="tokensCode">
+<pre style='color:#000000;background:#ffffff;'><span style='color:#808030; '>&lt;</span>add name<span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>ContractX</span><span style='color:#800000; '>"</span> path<span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>Something/ABC</span><span style='color:#800000; '>"</span> server<span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>XYZ.mbank.pl</span><span style='color:#800000; '>"</span> 
+     port<span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>8888</span><span style='color:#800000; '>"</span> binding<span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>TCP</span><span style='color:#800000; '>"</span> 
+     serverThumbPrint<span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>29[...]76</span><span style='color:#800000; '>"</span> 
+     clientThumbPrint<span style='color:#808030; '>=</span><span style='color:#800000; '>"</span><span style='color:#0000e6; '>98[...]84</span><span style='color:#800000; '>"</span><span style='color:#808030; '>/</span><span style='color:#808030; '>></span>
+</pre>
 </code>
-
 <aside class="notes">
     My favorite approach. In my company we are using it almost everywhere. 
     Instead of having multiple config files, we have one. But with "gaps" called tokes.
