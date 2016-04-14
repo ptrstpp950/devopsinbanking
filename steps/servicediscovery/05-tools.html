@@ -1,5 +1,7 @@
 <h2>The Service Registry</h2>
 <ul>
+    <li>Files++</li>
+    <li>Simple database</li>
     <li>Netflix Eureka</li>
     <li>etcd</li>
     <li>Apache Zookeeper</li>
@@ -8,6 +10,13 @@
 
 <aside class="notes">
     <ul>
+        <li>Files - good as first step, but nothing more. Tokens+automatic deployment helps but it doesn't solve everything.
+            It is a quite popular solution. For example included in RabbitMq, Cassandra as service discovery start. 
+            Also my company use something like in retail banking.
+        </li>
+        <li>
+            Variation of files. But provides single point of failure. Used in other part of my company. In the corporate banking.
+        </li>
         <li>, Netflix Eureka is a good example of a service registry. It provides a REST API for registering and querying service
             instances. A service instance registers its network location using a POST request. Every 30 seconds it must refresh
             its registration using a PUT request. A registration is removed by either using an HTTP DELETE request or by

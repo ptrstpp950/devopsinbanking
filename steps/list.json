@@ -14,7 +14,21 @@
         }
     },
     {
-        "uri": "00-start-no.1.html",
+        "uri": "01-about.me.html",
+        "id": "about-me",
+        "class": "step",
+        "data": {
+            "x": 0,
+            "y": 1000,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": 0
+        }
+    },
+    {
+        "uri": "02-start-no.1.html",
         "id": "noooooo",
         "class": "step title",
         "data": {
@@ -28,7 +42,7 @@
         }
     },
     {
-        "uri": "00-start-no.2.html",
+        "uri": "03-start-no.2.html",
         "id": "but",
         "class": "step title",
         "data": {
@@ -42,8 +56,8 @@
         }
     },    
     {
-        "uri": "01-agenda.html",
-        "id": "agenda",
+        "uri": "04-it-vs-sport.html",
+        "id": "it-vs-sport",
         "class": "step",
         "data": {
             "x": 0,
@@ -56,7 +70,7 @@
         }
     },
     {
-        "uri": "02-basketball.html",
+        "uri": "05-basketball.html",
         "id": "basketball",
         "class": "step",
         "data": {
@@ -70,7 +84,7 @@
         }
     },
     {
-        "uri": "03-mainrule.html",
+        "uri": "06-mainrule.html",
         "id": "mainrule",
         "class": "step",
         "data": {
@@ -382,8 +396,8 @@
         "id": "servicediscovery-03-client-side-discovery",
         "class": "step",
         "data": {
-            "x": 1000,
-            "y": 2000,
+            "x": 2000,
+            "y": 1000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
@@ -396,8 +410,8 @@
         "id": "servicediscovery-04-server-side-discovery",
         "class": "step",
         "data": {
-            "x": 1000,
-            "y": 3000,
+            "x": 3000,
+            "y": 1000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
@@ -410,8 +424,8 @@
         "id": "servicediscovery-05-tools",
         "class": "step",
         "data": {
-            "x": 1000,
-            "y": 4000,
+            "x": 4000,
+            "y": 1000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
@@ -424,8 +438,8 @@
         "id": "servicediscovery-06-consul",
         "class": "step",
         "data": {
-            "x": 1000,
-            "y": 5000,
+            "x": 5000,
+            "y": 1000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
@@ -438,13 +452,41 @@
         "id": "servicediscovery-07-lesson-learned",
         "class": "step",
         "data": {
-            "x": 1000,
-            "y": 6000,
+            "x": 6000,
+            "y": 1000,
             "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
             "rotate-z": 0
+        }
+    },
+    {
+        "uri": "99-refs.html",
+        "id": "99-refs",
+        "class": "step",
+        "data": {
+            "x": 6000,
+            "y": 6000,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 90,
+            "rotate-y": 90,
+            "rotate-z": 0
+        }
+    },
+    {
+        "uri": "99-end.html",
+        "id": "99-end",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 12000,
+            "z": 0,
+            "scale": 1,
+            "rotate-x": 90,
+            "rotate-y": 270,
+            "rotate-z": 270
         }
     }
 ]

@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@media (max-width: 600px) {
+    .stapplogo{
+        display:none;
+    }
+}
 .notes {
     display:none;
 }
