@@ -242,10 +242,10 @@
         "id": "db-02-db-vcs",
         "class": "step",
         "data": {
-            "x": 18000,
+            "x": -100,
             "y": 0,
-            "z": 300,
-            "scale": 1,
+            "z": 2000,
+            "scale": 2,
             "rotate-x": 0,
             "rotate-y": 0,
             "rotate-z": 90
@@ -256,13 +256,13 @@
         "id": "db-03-db-vcs-tools",
         "class": "step",
         "data": {
-            "x": 15000,
+            "x": -100,
             "y": 0,
-            "z": 300,
+            "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 180
         }
     },
     {
@@ -270,13 +270,13 @@
         "id": "db-04-db-survey",
         "class": "step",
         "data": {
-            "x": 12000,
+            "x": -100,
             "y": 0,
-            "z": 300,
-            "scale": 1,
+            "z": -2000,
+            "scale": 2,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 270
         }
     },
     {
@@ -284,15 +284,15 @@
         "id": "05-db-lesson-learned",
         "class": "step",
         "data": {
-            "x": 12000,
+            "x": -100,
             "y": 0,
-            "z": 300,
-            "scale": 1,
+            "z": -4000,
+            "scale": 2,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 360
         }
-    },
+    }, 
     {
         "uri": "deploy/01-intro.html",
         "id": "deploy-01-intro",
@@ -304,7 +304,7 @@
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -317,8 +317,8 @@
             "z": 300,
             "scale": 1,
             "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-y": 90,
+            "rotate-z": 0
         }
     },
     {
@@ -331,8 +331,8 @@
             "z": 300,
             "scale": 1,
             "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-y": 180,
+            "rotate-z": 0
         }
     },
     {
@@ -345,8 +345,8 @@
             "z": 300,
             "scale": 1,
             "rotate-x": 0,
-            "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-y": 270,
+            "rotate-z": 0
         }
     },
     {
@@ -354,13 +354,13 @@
         "id": "servicediscovery-01-intro",
         "class": "step",
         "data": {
-            "x": 12000,
-            "y": 0,
-            "z": 300,
+            "x": 0,
+            "y": 1000,
+            "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -368,13 +368,13 @@
         "id": "servicediscovery-02-problem",
         "class": "step",
         "data": {
-            "x": 12000,
-            "y": 0,
-            "z": 300,
+            "x": 1000,
+            "y": 1000,
+            "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -382,13 +382,13 @@
         "id": "servicediscovery-03-client-side-discovery",
         "class": "step",
         "data": {
-            "x": 12000,
-            "y": 0,
-            "z": 300,
+            "x": 1000,
+            "y": 2000,
+            "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -396,13 +396,13 @@
         "id": "servicediscovery-04-server-side-discovery",
         "class": "step",
         "data": {
-            "x": 12000,
-            "y": 0,
-            "z": 300,
+            "x": 1000,
+            "y": 3000,
+            "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -410,13 +410,13 @@
         "id": "servicediscovery-05-tools",
         "class": "step",
         "data": {
-            "x": 12000,
-            "y": 0,
-            "z": 300,
+            "x": 1000,
+            "y": 4000,
+            "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -424,13 +424,13 @@
         "id": "servicediscovery-06-consul",
         "class": "step",
         "data": {
-            "x": 12000,
-            "y": 0,
-            "z": 300,
+            "x": 1000,
+            "y": 5000,
+            "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     },
     {
@@ -438,13 +438,13 @@
         "id": "servicediscovery-07-lesson-learned",
         "class": "step",
         "data": {
-            "x": 12000,
-            "y": 0,
-            "z": 300,
+            "x": 1000,
+            "y": 6000,
+            "z": 0,
             "scale": 1,
             "rotate-x": 0,
             "rotate-y": 0,
-            "rotate-z": 90
+            "rotate-z": 0
         }
     }
 ]
