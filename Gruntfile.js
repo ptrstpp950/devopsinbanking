@@ -2,7 +2,7 @@
 'use strict';
 
 var LIVERELOAD_PORT = 35729;
-var lrSnippet = require('connect-livereload')({port: LIVERELOAD_PORT});
+var lrSnippet = require('connect-livereload')({ port: LIVERELOAD_PORT });
 var mountFolder = function (connect, dir) {
     return connect.static(require('path').resolve(dir));
 };
@@ -48,8 +48,33 @@ module.exports = function (grunt) {
             server: {
                 path: 'http://localhost:<%= connect.options.port %>'
             }
-        }
+        },
+        copy: {
+            html: {
+                src: './index.html', dest: 'dist/index.html'
+            },
+            steps: {
+                src: './steps/**/*.*', dest: 'dist/'
+            }
+        },
+        useminPrepare: {
+            html: './index.html',
+            options: {
+                dest: 'dist'
+            }
+        },
+
+        usemin: {
+            html: ['dist/{,*/}*.html'],
+            css: ['dist/css/{,*/}*.css']
+        },
+
     });
 
+
     grunt.registerTask('server', ['connect:livereload', 'open', 'watch']);
+
+    grunt.registerTask('build', ['copy:html', 'copy:steps', 'useminPrepare','concat',
+		'uglify',
+		'cssmin', 'usemin']);
 };
