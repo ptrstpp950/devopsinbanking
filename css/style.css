@@ -4,7 +4,7 @@
 }
 
 .notes {
-    display:none;
+    display:block;
 }
 @font-face{
     font-family: DroidSans;

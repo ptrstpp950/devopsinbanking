@@ -8,7 +8,7 @@
 
 <aside class="notes">
     <ul>
-        <li>, Netflix Eureka is good example of a service registry. It provides a REST API for registering and querying service
+        <li>, Netflix Eureka is a good example of a service registry. It provides a REST API for registering and querying service
             instances. A service instance registers its network location using a POST request. Every 30 seconds it must refresh
             its registration using a PUT request. A registration is removed by either using an HTTP DELETE request or by
             the instance registration timing out. As you might expect, a client can retrieve the registered service instances
