@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>IS DEVOPS IN BANKING POSSIBLE</title>
+
+  <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com."
+  />
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic"
+    rel="stylesheet" />
+   <!-- build:css css/site.css -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- endbuild -->
+   <!-- build:css css/impressConsole.css -->
+  <link href="css/impressConsole.css" rel="stylesheet" />
+  <!-- endbuild -->
+  <link rel="shortcut icon" href="favicon.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body>
+
+  <div id="impress" class="steps">
+    <%= slides %>
+  </div>
+  <div style="position:absolute; bottom:10px; right:10px;" class="stapplogo">
+    <img src="./img/stappspacelogo.png" />
+  </div>
+  
+  <!-- build:js scripts/site.js -->
+  <script src="bower_components/impress.js/js/impress.js"></script>
+  <script src="js/impressConsole.js"></script>
+  <!-- endbuild -->
+<script>
+    // First, get sorted slide list
+    impress().init();
+    impressConsole().init();
+  
+  </script>
+
+</body>
+
+</html>

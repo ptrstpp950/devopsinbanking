@@ -19,7 +19,7 @@ module.exports = function (grunt) {
             },
             livereload: {
                 files: [
-                    'index.html',
+                    '_index.html',
                     'js/*.js',
                     'css/*.css',
                     'steps/*.html',
@@ -53,8 +53,8 @@ module.exports = function (grunt) {
             html: {
                 src: './index.html', dest: 'dist/index.html'
             },
-            steps: {
-                src: './steps/**/*.*', dest: 'dist/'
+            img: {
+                src: './img/**/*.*', dest: 'dist/'
             }
         },
         useminPrepare: {
@@ -71,10 +71,33 @@ module.exports = function (grunt) {
 
     });
 
+    grunt.registerTask('buildIndex', 'Build index.html task', function () {
+        var Handlebars = require('handlebars');
+        var templ = Handlebars.compile('<div id="{{id}}" class="{{class}}" {{#step data}}{{uri}}{{/step}}>{{{file}}}</div>');
+        
+        var indexTemplate = grunt.file.read('_index.html');
+        
+        Handlebars.registerHelper('step', function (data) {
+            var ret = '';
+            for (var key in data) {
+                ret = ret + ' data-' + key + '="' + data[key] + '"';
+            }
+            return ret;
+        });
+        var root = "steps/";
+        var full = "";
+        var lists = grunt.file.readJSON(root + 'list.json');
+        for (var i = 0; i < lists.length; i++) {
+            var step = lists[i];
+            var data = grunt.file.read(root + step.uri);
+            full += templ({ file: data, data: step.data, class: step.class, id: step.id });
+        }
+        var html = grunt.template.process(indexTemplate, {data: {slides:full}});
+        grunt.file.write('index.html', html);
+    });
 
-    grunt.registerTask('server', ['connect:livereload', 'open', 'watch']);
 
-    grunt.registerTask('build', ['copy:html', 'copy:steps', 'useminPrepare','concat',
-		'uglify',
-		'cssmin', 'usemin']);
+    grunt.registerTask('server', ['buildIndex','connect:livereload', 'open', 'watch']);
+
+    grunt.registerTask('build', ['buildIndex','copy:html','copy:img', 'useminPrepare', 'concat','uglify','cssmin', 'usemin']);
 };
