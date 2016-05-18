@@ -238,6 +238,20 @@
         }
     },
     {
+        "uri": "config/05-config-lesson-learned.html",
+        "id": "config-05-lesson-learned",
+        "class": "step",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "z": 100,
+            "scale": 1,
+            "rotate-x": 360,
+            "rotate-y": 0,
+            "rotate-z": 0
+        }
+    },
+    {
         "uri": "db/01-intro.html",
         "id": "db-01-intro",
         "class": "step",
