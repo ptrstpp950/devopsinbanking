@@ -11,6 +11,16 @@
 .notes {
     display:none;
 }
+.buttonSkip{
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16pt;
+}
 @font-face{
     font-family: DroidSans;
     src: url('/symposium-presentation/resources/fonts/DroidSans.ttf');

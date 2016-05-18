@@ -22,9 +22,13 @@ module.exports = function (grunt) {
                     '_index.html',
                     'js/*.js',
                     'css/*.css',
-                    'steps/*.html',
+                    'steps/**/*.html',
                     'steps/list.json'
-                ]
+                ],
+                tasks: ['build'],
+                options: {
+                    debounceDelay: 250,
+                }
             }
         },
         connect: {

@@ -244,6 +244,20 @@
         "data": {
             "x": -100,
             "y": 0,
+            "z": 6000,
+            "scale": 2,
+            "rotate-x": 0,
+            "rotate-y": 0,
+            "rotate-z": -90
+        }
+    },
+    {
+        "uri": "db/01-intro.extended.html",
+        "id": "db-01-intro-extended",
+        "class": "step",
+        "data": {
+            "x": -100,
+            "y": 0,
             "z": 4000,
             "scale": 2,
             "rotate-x": 0,
